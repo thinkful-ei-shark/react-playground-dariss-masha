@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordian from './Accordian';
 
-const sections = [
+const testObj = [
   {
     title: 'Section 1',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
@@ -16,11 +16,10 @@ const sections = [
   },
 ]
 
-
 function App() {
-  return (
+  return ( // react.createElement(Accordian, {sections: testObj})
     <main className='App'>
-      {<Accordian sections={sections} />}
+      {<Accordian sections={testObj} />} 
     </main>
   );
 }
