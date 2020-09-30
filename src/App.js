@@ -1,5 +1,8 @@
 import React from 'react';
 import Accordian from './Accordian';
+
+// import statements for currently unused components:
+
 // import HelloWorld from './state-drills/HelloWorld';
 // import Bomb from './state-drills/Bomb';
 // import RouletteGun from './state-drills/RouletteGun'
@@ -20,9 +23,9 @@ const testObj = [
 ]
 
 function App() {
-  return ( // react.createElement(Accordian, {sections: testObj})
+  return (
     <main className='App'>
-      {<Accordian sections= {testObj} />} 
+      {<Accordian sections={testObj} />} 
     </main>
   );
 }
