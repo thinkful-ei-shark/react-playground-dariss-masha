@@ -6,7 +6,7 @@ class Accordian extends React.Component {
     }
 
     state = {
-        currentIndex: 0
+        currentIndex: -1
     }
 
     handleButtonClick(index) {
